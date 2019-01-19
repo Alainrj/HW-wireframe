@@ -19,29 +19,31 @@ body {
     margin: 10px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #section {
+    position: relative;
     background-color: #ebebeb;
     margin: 10px;
-    width: 50%;
+    width: 42%;
     height: 200px;
     text-align: center;
     padding: 20px;
+    float: left;
 }
 
 #article {
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 5%;
     background-color: #777;
-    color: #ebebeb;
+    color: white;
     width: 350px;
     margin: 10px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 75px;
+    padding-top: 85px;
+    padding-bottom: 10px;
     float: left;
 }
 
@@ -68,13 +70,14 @@ body {
 }
 
 #aside {;
+    position: relative;
     background-color: #ebebeb;
     margin: 10px;
-    width: 50%;
+    width: 42%;
     height: 200px;
     text-align: center;
     padding: 20px;
-    float: right;
+    float: left;
 }
 
 #footer {
